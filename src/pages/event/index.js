@@ -14,7 +14,7 @@ import {
 } from 'react-icons/fi';
 import { MdRestaurant, MdEvent, MdLocationOn } from 'react-icons/md';
 import { events } from '../../data/events';
-import BottomNav from '../../components/BottomNav';
+// import BottomNav from '../../components/BottomNav';
 
 export default function EventsPage() {
   const [filter, setFilter] = useState('all');
@@ -146,7 +146,7 @@ export default function EventsPage() {
           )}
         </div>
       </div>
-      <BottomNav />
+      {/* <BottomNav /> */}
     </>
   );
 }
