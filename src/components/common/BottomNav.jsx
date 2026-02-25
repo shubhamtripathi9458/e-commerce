@@ -4,7 +4,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FiHome, FiRepeat, FiGrid, FiShoppingCart, FiUser } from "react-icons/fi";
+import { FiHome, FiRepeat, FiGrid, FiShoppingCart, FiUser, FiCalendar } from "react-icons/fi";
 
 export default function BottomNav() {
   const pathname = usePathname();
@@ -14,7 +14,7 @@ export default function BottomNav() {
     { href: "/order-again", icon: FiRepeat, label: "Order" },
     { href: "/categories", icon: FiGrid, label: "Explore" },
     { href: "/cart", icon: FiShoppingCart, label: "Cart", badge: 3 },
-    // { href: "/profile", icon: FiUser, label: "Profile" },
+   
   ];
 
   return (

@@ -70,9 +70,14 @@ const Layout = ({ children }) => {
         onLocationClick={() => setShowLocation(true)}
       />
 
-      <main className="pt-24 pb-20 md:pb-0">
+      {/* <main className="pt-24 pb-20 md:pb-0">
         {children}
-      </main>
+      </main> */}
+
+
+      <main className="pt-[7.2rem] pb-20 md:pt-[4.8rem] md:pb-0">
+  {children}
+</main>
 
       <div className="hidden md:block">
         <Footer />

@@ -59,10 +59,10 @@ const Footer = () => {
                 <FiPhone />
                 <span>+1 234 567 8900</span>
               </li>
-              <li className="flex items-center space-x-2">
+              {/* <li className="flex items-center space-x-2">
                 <FiMail />
                 <span>support@foodieexpress.com</span>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

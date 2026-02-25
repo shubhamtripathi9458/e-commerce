@@ -40,10 +40,10 @@ export default function RestaurantDetails() {
         
         {/* Action Buttons */}
         <div className="absolute top-4 right-4 flex space-x-2">
-          <button className="bg-white p-3 rounded-full shadow-lg">
+          <button className="bg-white p-3 rounded-full shadow-lg text-gray-700 hover:bg-gray-200 transition">
             <FiShare2 size={20} />
           </button>
-          <button className="bg-white p-3 rounded-full shadow-lg">
+          <button className="bg-white p-3 rounded-full shadow-lg text-gray-700 hover:bg-gray-200 transition">
             <FiHeart size={20} />
           </button>
         </div>
@@ -95,11 +95,11 @@ export default function RestaurantDetails() {
         {activeTab === 'menu' && (
           <div className="space-y-6">
             {/* Search in Menu */}
-            <input
+            {/* <input
               type="text"
               placeholder="Search in menu..."
               className="w-full p-3 border rounded-lg focus:outline-none focus:border-primary"
-            />
+            /> */}
 
             {/* Menu Categories */}
             <div className="space-y-6">

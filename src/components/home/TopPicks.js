@@ -23,14 +23,14 @@ const TopPicks = () => {
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Top Picks For You</h2>
             <p className="text-sm text-gray-500 mt-1">Most loved dishes by our customers</p>
           </div>
-          <Link 
-            href="/trending" 
+          <div 
+            // href="/trending" 
             className="flex items-center gap-1 text-sm font-medium text-[#6B8CFF] hover:text-[#5A7AE0] 
                      transition-colors bg-gray-50 px-4 py-2 rounded-full border border-gray-200"
           >
             View all
             <FiChevronRight size={16} />
-          </Link>
+          </div>
         </div>
         
         {/* Grid Layout for Top Picks */}

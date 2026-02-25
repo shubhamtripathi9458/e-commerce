@@ -71,14 +71,14 @@ const UpcomingEvents = () => {
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Upcoming Events</h2>
             <p className="text-sm text-gray-500 mt-1">Special culinary experiences waiting for you</p>
           </div>
-          <Link 
-            href="/events" 
+          <div
+            // href="/events" 
             className="flex items-center gap-1 text-sm font-medium text-[#6B8CFF] hover:text-[#5A7AE0] 
                      transition-colors bg-white px-4 py-2 rounded-full shadow-sm border border-gray-200"
           >
             See all events
             <FiChevronRight size={16} />
-          </Link>
+          </div>
         </div>
 
         {/* Events Grid - Responsive */}

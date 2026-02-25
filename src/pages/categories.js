@@ -60,7 +60,7 @@ export default function CategoriesPage() {
               <button
                 onClick={() => setViewMode('grid')}
                 className={`p-2 rounded-md ${
-                  viewMode === 'grid' ? 'bg-black text-white' : ''
+                  viewMode === 'grid' ? 'bg-black text-white' : 'bg-white text-black'
                 }`}
               >
                 <FiGrid size={16} />
@@ -69,7 +69,7 @@ export default function CategoriesPage() {
               <button
                 onClick={() => setViewMode('list')}
                 className={`p-2 rounded-md ${
-                  viewMode === 'list' ? 'bg-black text-white' : ''
+                  viewMode === 'list' ? 'bg-black text-white' : 'bg-white text-black'
                 }`}
               >
                 ≡
@@ -131,7 +131,7 @@ export default function CategoriesPage() {
                     />
 
                     <div className="flex-1">
-                      <h3 className="text-sm font-semibold">{category.name}</h3>
+                      <h3 className="text-sm font-semibold text-black">{category.name}</h3>
                       <p className="text-xs text-gray-500">
                         {category.count}+ items
                       </p>
